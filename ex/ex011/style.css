@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+<style>
+
+body {color: blue;}
+
+h1{color: blue;
+text-align: center;}
+
+h2 {color: darkred;}
+
+p {text-align: justify;}
+</style>
