@@ -76,11 +76,11 @@ main p { text-align: center;
 
 }
 
-div {border: 2px solid black;
+div {border: 2px solid rgba(0, 0, 0, 0.436);
     width: 500px;
     height: 500px;
     margin: auto;
-    border-radius: 50px;
+    border-radius: 59px;
     box-shadow: -2px 1px 10px 1px rgba(0, 0, 0, 0.434); 
 
 }
