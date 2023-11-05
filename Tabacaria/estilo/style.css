@@ -1,11 +1,26 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@font-face { font-family: 'PallMall'; 
+    src: url(../fontes/PallMallBold.ttf.woff) format('woff');}
+
+
+
+:root {
+    --fontenrm: Verdana, Geneva, Tahoma, sans-serif;
+    --fontett: 'PallMall', cursive;
+    --fontepoema: 'Caveat', cursive;
+}
+
+
 * { margin: 0px;
     padding: 0px;}
 
 html, body {
  min-height: 100vh;
- background-color: darkgrey;
+ background-color: white;
+ font-family: var(--fontenm);
 }
 
 header {background-color: #D90D0D;
@@ -16,6 +31,9 @@ header {background-color: #D90D0D;
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-weight: lighter;
+    font-family: var(--fontett);
+    font-size: 10vw;
 }
 
 header > p {
@@ -27,30 +45,39 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left:30px;
+    font-family: var(--fontepoema);
+    font-size: 3.5vw;
+}
+
+section > p {
+    padding: 2em;
 }
 
 section.imagem {
-
     background-color: pink;
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-section.imagem p {
-    width: 500px;
-    background-color: rgba(0, 0, 0, 0.234);
+section#img01 {
+    background-image: url(../imagens/1.png);
+    background-position: left center;
+    background-size: cover;
+    }
+    
+    section#img02 {
+        background-image: url(../imagens/3.jpeg);
+       
+    
+    }
 
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 footer {
