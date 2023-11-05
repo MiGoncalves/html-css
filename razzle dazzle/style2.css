@@ -1,0 +1,48 @@
+@charset "UTF 8";
+
+@font-face { font-family: 'Edosz'; 
+    src: url(fonts/edosz.ttf) format(truetype);}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@500&family=Satisfy&display=swap');
+
+
+
+body {
+    
+    background-color: black;}
+
+:root {
+        --cor1:#BF3939;
+        --cor2:#A84B2C;
+        --cor3: #593E3E;
+        --cor4: #332E2E;
+        --cor5: #332424;
+
+--fontetitulo: 'Edosz', cursive; 
+--fonte2: 'Bebas Neue', sans-serif;
+
+}
+
+header {
+    background-image: black;
+    color: var(--cor1);
+    font-family: var(--fontetitulo);
+    text-align: center;
+    font-size: 2em;
+}
+
+header h1, h2 {
+    margin: 0.1em 0;} 
+
+main {
+    min-width: 300px;
+    max-width: 1250px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.414);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
