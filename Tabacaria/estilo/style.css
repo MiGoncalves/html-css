@@ -1,1 +1,60 @@
 @charset "UTF-8";
+
+* { margin: 0px;
+    padding: 0px;}
+
+html, body {
+ min-height: 100vh;
+ background-color: darkgrey;
+}
+
+header {background-color: #D90D0D;
+        color: white;
+        text-align: center;
+    }
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+padding-bottom: 50px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left:30px;
+}
+
+section.imagem {
+
+    background-color: pink;
+    color: white;
+}
+
+section.imagem p {
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.234);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #D90D0D;
+    color: white;
+    text-align: center;
+}
