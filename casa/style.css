@@ -13,4 +13,6 @@ h1 {
     }
 p {text-align: center;}
 
-
+input {position:relative;
+       left: 700px; 
+        margin: 5px;}
